@@ -1,6 +1,6 @@
 //import logo from './logo.svg';
 import './App.css';
-
+import HelloWorld from './components/HelloWorld';
 
 function App() {
 
@@ -20,7 +20,8 @@ function App() {
       <p>Espero que gostem!!!</p>
       <p>Eu acho que vou gostar de aprender :) </p>
       <p>A soma entre 2 e 3 é igual à {sum(2,3)} </p>
-      <img src={url} alt="Imagem teste" />
+      <img src={url} alt="Imagem teste"/>
+      <HelloWorld/>
     </div>
   );
 }
