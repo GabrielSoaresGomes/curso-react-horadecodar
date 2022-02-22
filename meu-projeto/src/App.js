@@ -3,12 +3,14 @@ import './App.css';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
 import Frase from "./components/Frase"
+import List from "./components/List"
 
 function App() {
 
   const nome = "Ana"
 
   return (
+
     <div className="App">
         <h1>Testando CSS</h1>
       <SayMyName nome="Roberto"/>
@@ -16,6 +18,7 @@ function App() {
       <SayMyName nome={nome}/> {/* Nesse caso seria Ana */}
         <Frase/>
       <Pessoa nome="João" idade="21" profissao="Engenheiro de Software" foto="https://via.placeholder.com/50" />
+        <List/>
     </div>
   );
 }
