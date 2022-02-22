@@ -6,8 +6,8 @@ function List() {
         <>
             <h1>Minha Lista</h1>
             <ul className={styles.listContainer}>
-                <Item marca="Nike" />
-                <Item marca="Adidas" />
+                <Item marca="Ferrari" ano_lancamento={1965} />
+                <Item marca="Citroen" ano_lancamento={2003} />
             </ul>
         </>
     )
