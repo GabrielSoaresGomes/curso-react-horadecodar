@@ -1,0 +1,14 @@
+nav {
+    background-color: gray;
+}
+
+.list {
+    margin: 0;
+    display:flex;
+    list-style: none;
+}
+
+.item {
+    padding: 4px 12px;
+    margin-right:1em ;
+}
